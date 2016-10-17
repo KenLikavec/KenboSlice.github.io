@@ -17,7 +17,7 @@
     <title></title>
     <meta charset="utf-8" />
 </head>
-<body>
+<body id="HomeBody">
     <div id="MeThumbnailParent">
         <div id="MeThumbnail" class="thumbnail">
             <img id="PicOfMe" src="Content/HeadShot.jpg" />
@@ -27,22 +27,26 @@
             </div>
         </div>
     </div>
-    <div id="HomeBody" class="container">
-        <div id="BodyRow1" class="row">
-            <div class="col-md-3">
-                <button id="BodyButton1" type="button" class="btn btn-secondary btn-lg"><span id="HomeGlyphicon1" class="glyphicon glyphicon-education"></span></button>
-            </div>
-            <div class="col-md-3">
-                <button id="BodyButton2" type="button" class="btn btn-secondary btn-lg"><span id="HomeGlyphicon2" class="glyphicon glyphicon-briefcase"></span></button>
-            </div>
-            <div class="col-md-3">
-                <button id="BodyButton3" type="button" class="btn btn-secondary btn-lg"><span id="HomeGlyphicon3" class="glyphicon glyphicon-envelope"></span></button>
-            </div>
-            <div class="col-md-3">
-                <button id="BodyButton4" type="button" class="btn btn-secondary btn-lg"><span id="HomeGlyphicon4" class="glyphicon glyphicon-eye-open"></span></button>
-            </div>
+    <div id="BodyContainer" class="container">
+    </div>
+
+    <div id="BodyRow1" class="row">
+        <div class="col-md-3">
+            <button id="BodyButton1" type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='BioPage.html'"><span id="HomeGlyphicon1" class="glyphicon glyphicon-education"></span></button>
+        </div>
+        <div class="col-md-3">
+            <button id="BodyButton2" type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='ProjectsPage.html'"><span id="HomeGlyphicon2" class="glyphicon glyphicon-briefcase"></span></button>
+        </div>
+        <div class="col-md-3">
+            <button id="BodyButton3" type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='ContactInfo.html'"><span id="HomeGlyphicon3" class="glyphicon glyphicon-envelope"></span></button>
+        </div>
+        <div class="col-md-3">
+            <button id="BodyButton4" type="button" class="btn btn-secondary btn-lg"><span id="HomeGlyphicon4" class="glyphicon glyphicon-eye-open"></span></button>
         </div>
     </div>
+
+
+
 
     <!--Link for Java Script-->
     <script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>

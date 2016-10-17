@@ -1,23 +1,21 @@
-﻿body {
+﻿/*HOME PAGE*/
+#HomeBody {
     background-image: url('Content/portfolioBackground.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
-
 /*Adjust Properties of the Headshot*/
-#PicOfMe
-{
+#PicOfMe {
     height: 225px;
     width: 175px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 /*Adjust Properties of the MeThumbnail*/
-#MeThumbnail
-{
+#MeThumbnail {
     height: 328px;
     width: 200px;
     position: absolute;
@@ -26,93 +24,209 @@
     transform: translate(-50%, -50%);
     /* RGBa with 0.6 opacity */
     background-color: rgba(112, 88, 155, 0.72);
+    margin-bottom: 20vh;
 }
 
-#MeThumbnailParent{
+#MeThumbnailParent {
     height: 100vh;
     position: relative;
-
 }
 
-#NameText
-{
+#NameText {
     color: white;
     text-align: center;
 }
 
-#JobTitleText
-{
+#JobTitleText {
     color: white;
     text-align: center;
 }
 
-#HomeBody
-{
+#BodyContainer {
     margin-top: -20vh;
-    height: 20vh:
+    height: 20vh;
 }
 
-#BodyRow1
-{
+#BodyRow1 {
+    text-align: center;
+    margin-top:-20vh;
+}
+
+#BodyButton1 {
+    height: 80px;
+    width: 84px;
+    background-color: rgba(112, 88, 155, 0.72);
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    border-radius: 50px;
+}
+
+#HomeGlyphicon1 {
+    font-size: 1.8em;
+    color: white;
+}
+
+#BodyButton2 {
+    height: 80px;
+    width: 84px;
+    background-color: rgba(112, 88, 155, 0.72);
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    border-radius: 50px;
+}
+
+#HomeGlyphicon2 {
+    font-size: 1.8em;
+    color: white;
+}
+
+#BodyButton3 {
+    height: 80px;
+    width: 84px;
+    background-color: rgba(112, 88, 155, 0.72);
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    border-radius: 50px;
+}
+
+#HomeGlyphicon3 {
+    font-size: 1.8em;
+    color: white;
+}
+
+#BodyButton4 {
+    height: 80px;
+    width: 84px;
+    background-color: rgba(112, 88, 155, 0.72);
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    border-radius: 50px;
+}
+
+#HomeGlyphicon4 {
+    font-size: 1.8em;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PROJECT PAGE*/
+#ProjectsBody {
+    background-image: url('Content/SnowBackground.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#ProjectsHeader {
     text-align: center;
 }
 
-#BodyButton1
+#ProjectHeaderText {
+    font-size: 70px;
+    opacity: 0.6;
+}
+
+.PicOfProject
 {
-    /*height: 30px;
-    width: 34px;*/
-    background-color: rgba(112, 88, 155, 0.72);
+    width: 250px;
+    height: 85px;
+}
+
+
+
+
+
+
+#BioBody {
+    background-image: url('Content/CarpentryBackground.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#BioPanel
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20vh;
+}
+
+#BioPanelTitle
+{
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(145, 151, 14, 0.69);
     border-style: solid;
     border-width: thin;
     border-color: white;
+    color: white;
+    font-size: large;
 }
 
-#HomeGlyphicon1
+#BioPanelBody
 {
+    background-color: rgba(145, 151, 14, 0.69);
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
     color: white;
 }
 
-#BodyButton2
+#ContactBody {
+    background-image: url('Content/portfolioBackground.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#ContactPanel
 {
-    /*height: 30px;
-    width: 34px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20vh;
+}
+
+#ContactPanelTitle
+{
+    text-align: center;
+    margin-bottom: 0px;
     background-color: rgba(112, 88, 155, 0.72);
     border-style: solid;
     border-width: thin;
     border-color: white;
-}
-
-#HomeGlyphicon2 
-{
     color: white;
+    font-size: large;
 }
 
-#BodyButton3
+#ContactPanelBody
 {
-    /*height: 30px;
-    width: 34px;*/
     background-color: rgba(112, 88, 155, 0.72);
     border-style: solid;
     border-width: thin;
     border-color: white;
-}
-
-#HomeGlyphicon3 
-{
-    color: white;
-}
-
-#BodyButton4
-{
-    /*height: 30px;
-    width: 34px;*/
-    background-color: rgba(112, 88, 155, 0.72);
-    border-style: solid;
-    border-width: thin;
-    border-color: white;
-}
-
-#HomeGlyphicon4 
-{
     color: white;
 }
